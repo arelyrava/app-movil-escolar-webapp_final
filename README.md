@@ -43,7 +43,7 @@ El proyecto combina un **frontend moderno en Angular** con un **backend robusto 
 
 ---
 
-## Imagenes de Proyecto final 
+## Imagenes de Proyecto Final 
 ### Pagina principal 
 
 ![image alt](https://github.com/arelyrava/FinalFront/blob/845651740539add7c281a705000f7922b501b030/imagen_2025-11-29_142432156.png)
