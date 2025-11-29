@@ -87,7 +87,7 @@ git clone https://github.com/arelyrava/BackFinalMoviles.git backend
 
 ```bash
 cd app_movil_escolar_api
-Scripts\activate                      #Activar entorno virtual
+Scripts\activate                      # Activar entorno virtual
 python manage.py makemigrations       # Crear archivos de migración basados en modelos
 python manage.py migrate              # Aplicar migraciones a la base de datos
 python manage.py runserver            # Iniciar servidor de desarrollo en localhost
