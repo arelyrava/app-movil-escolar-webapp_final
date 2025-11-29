@@ -76,33 +76,45 @@ Maestros
 ##  Instalación y ejecución
 
 ## 1. Clonar repositorios
+```bash
 git clone https://github.com/arelyrava/FinalFront.git frontend
 git clone https://github.com/arelyrava/BackFinalMoviles.git backend
+```
 
 
 ## 2.Configuración y ejecución del Backend (Django)
 
-### Activar entorno virtual (Windows)
-Scripts\activate  
 
-### Crear archivos de migración basados en modelos
-python manage.py makemigrations  
+```bash
+Scripts\activate ### Activar entorno virtual (Windows)
+```
 
-### Aplicar migraciones a la base de datos
-python manage.py migrate  
 
-### Iniciar servidor de desarrollo en localhost
-python manage.py runserver
+```bash
+python manage.py makemigrations ### Crear archivos de migración basados en modelos
+```
+
+
+```bash
+python manage.py migrate ### Aplicar migraciones a la base de datos
+```
+
+
+```bash
+python manage.py runserver ### Iniciar servidor de desarrollo en localhost
+```
 
 
 ## 3. Configuración y ejecución del Frontend (Angular)
-
+```bash
 cd frontend
 npm install          # Instalar dependencias
 ng serve -o          # Ejecutar y abrir en navegador
+```
 
 
 ## Estructura del Proyecto
+```bash
 / (raíz)
 ├── frontend/          # Angular app
 │   ├── src/
@@ -112,6 +124,7 @@ ng serve -o          # Ejecutar y abrir en navegador
     ├── app_movil_escolar_api/
     ├── manage.py
     └── requirements.txt
+```
 
 
 
