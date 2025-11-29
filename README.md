@@ -49,17 +49,23 @@ El proyecto combina un **frontend moderno en Angular** con un **backend robusto 
 ![image alt](https://github.com/arelyrava/FinalFront/blob/845651740539add7c281a705000f7922b501b030/imagen_2025-11-29_142432156.png)
 
 ### Registros 
-![image alt](
-![image alt](
-![image alt](
+Administrador
+![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/registro%20Admin.png)
+Alumno
+![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/registro%20alumno.png)
+Maestro
+![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/registro%20maestro.png)
 
 ### tablas 
+Administrador
 ![image alt](
-![image alt](
-![image alt](
+Alumno
+![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/Tabla%20Alumno.png)
+Maestros
+![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/tabla%20maestro%20.png)
 
 ### Graficas 
-![image alt](
+![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/Graficas.png)
 
 ### Eventos
 ![image alt](
@@ -69,7 +75,7 @@ El proyecto combina un **frontend moderno en Angular** con un **backend robusto 
 
 ##  Instalación y ejecución
 
-### 1. Clonar repositorios
+## 1. Clonar repositorios
 git clone https://github.com/arelyrava/FinalFront.git frontend
 git clone https://github.com/arelyrava/BackFinalMoviles.git backend
 
