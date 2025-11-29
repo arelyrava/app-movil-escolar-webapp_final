@@ -1,0 +1,132 @@
+// Contenedor principal (Quita el padding extra del mat-dialog si es necesario)
+.wrapper {
+  padding: 5px;
+  font-family: 'Nexa-Bold', sans-serif;
+}
+
+// Icono de cerrar (X) alineado a la derecha
+.icon-close {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+
+  .btn-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #E84150; // Rojo característico
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    mat-icon {
+      font-size: 20px;
+    }
+
+    // Si usas bootstrap icons en lugar de mat-icon:
+    i {
+      font-size: 18px;
+      color: #E84150;
+    }
+  }
+}
+
+// Cuerpo del modal centrado
+.body-modal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px 20px 15px; // Padding inferior para separar del borde
+}
+
+// Título "Editar evento"
+.title-modal {
+  text-align: center;
+  font-family: 'Nexa-Bold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -0.72px;
+  color: #406779; // Azul grisáceo corporativo
+  opacity: 1;
+  margin-top: -10px; // Ajuste visual para subirlo un poco
+  margin-bottom: 15px;
+}
+
+// Texto descriptivo
+.descripcion {
+  text-align: center;
+  font-family: 'Nexa', sans-serif; // Fuente regular
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 25px;
+  line-height: 1.4;
+  max-width: 280px; // Fuerza el salto de línea para que se vea como en el diseño
+}
+
+// Contenedor de botones
+.buttons-modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+// Botón Cancelar (Estilo Gris/Blanco)
+.btn-cancelar {
+  margin-top: 10px;
+  width: 132px;
+  height: 48px;
+  background: #F6F4F5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 10px #4F480733;
+  border: 1px solid #F6F4F5;
+  opacity: 1;
+  border-radius: 8px;
+
+  // Fuentes
+  text-align: center;
+  font-family: 'Nexa-Bold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #E84150 !important; // Texto rojo
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #e9e7e8;
+  }
+}
+
+// Botón Editar (Estilo Rojo Sólido)
+.btn-editar {
+  margin-top: 10px;
+  width: 132px;
+  height: 48px;
+  background: #E84150 0% 0% no-repeat padding-box;
+  box-shadow: 0px 12px 20px #4E071433;
+  border: 1px solid #E84150;
+  opacity: 1;
+  border-radius: 8px;
+
+  // Fuentes
+  text-align: center;
+  font-family: 'Nexa-Bold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #FFFFFF !important; // Texto blanco
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #d63a47;
+  }
+}
