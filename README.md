@@ -44,13 +44,32 @@ El proyecto combina un **frontend moderno en Angular** con un **backend robusto 
 ---
 
 ## Imagenes de Proyecto final 
+### Pagina principal 
 
 ![image alt](https://github.com/arelyrava/FinalFront/blob/845651740539add7c281a705000f7922b501b030/imagen_2025-11-29_142432156.png)
+
+### Registros 
+![image alt](
+![image alt](
+![image alt](
+
+### tablas 
+![image alt](
+![image alt](
+![image alt](
+
+### Graficas 
+![image alt](
+
+### Eventos
+![image alt](
+
+
+
 
 ##  Instalación y ejecución
 
 ### 1. Clonar repositorios
-```bash
 git clone https://github.com/arelyrava/FinalFront.git frontend
 git clone https://github.com/arelyrava/BackFinalMoviles.git backend
 
