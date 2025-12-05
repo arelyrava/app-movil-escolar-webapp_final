@@ -80,7 +80,7 @@ Maestros
 ## 1. Clonar repositorios
 ```bash
 git clone https://github.com/arelyrava/FinalFront.git frontend
-git clone https://github.com/arelyrava/app_movil_escolar_api.git backend
+git clone https://github.com/arelyrava/app_movil_escolar_api_final.git backend
 ```
 
 
